@@ -16,7 +16,7 @@ Use a separate potentiometer for controlling each color of the RGB LED:Red,Green
 - The 3 resistors are connected to the RGB Led.
 
 ## Images
-![image](IntroductionToRobotics/Homework2-RGB/assets/1.jpg)
-![image](IntroductionToRobotics/Homework2-RGB/assets/2.jpg)
-![image](IntroductionToRobotics/Homework2-RGB/assets/3.jpg)
-![image](IntroductionToRobotics/Homework2-RGB/assets/4.jpg)
+![image](assets/1.jpg)
+![image](assets/2.jpg)
+![image](assets/3.jpg)
+![image](assets/4.jpg)
