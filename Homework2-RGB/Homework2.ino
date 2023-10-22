@@ -18,10 +18,10 @@ void loop() {
   int greenValue = analogRead(greenPotPin);
   int blueValue = analogRead(bluePotPin);
 
-  // Map the potentiometer values to the LED brightness (0-255)
-  int redBrightness = map(redValue, 0, 1023, 0, 255);
-  int greenBrightness = map(greenValue, 0, 1023, 0, 255);
-  int blueBrightness = map(blueValue, 0, 1023, 0, 255);
+  // Map the potentiometer values to the LED brightness
+  int redBrightness = map(redValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
+  int greenBrightness = map(greenValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
+  int blueBrightness = map(blueValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
 
   // Update the LED colors
   analogWrite(redPin, redBrightness);

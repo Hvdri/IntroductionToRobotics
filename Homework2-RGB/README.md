@@ -25,6 +25,12 @@ const int redPotPin = A0;    // Potentiometer for Red color
 const int greenPotPin = A1;  // Potentiometer for Green color
 const int bluePotPin = A2;   // Potentiometer for Blue color
 
+const int minLedBrightness = 0;    // Minimum brightness of the LED
+const int maxLedBrightness = 255;  // Maximum brightness of the LED
+
+const int minPotValue = 0;    // Minimum value of the potentiometer
+const int maxPotValue = 1023; // Maximum value of the potentiometer
+
 void setup() {
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
@@ -37,10 +43,10 @@ void loop() {
   int greenValue = analogRead(greenPotPin);
   int blueValue = analogRead(bluePotPin);
 
-  // Map the potentiometer values to the LED brightness (0-255)
-  int redBrightness = map(redValue, 0, 1023, 0, 255);
-  int greenBrightness = map(greenValue, 0, 1023, 0, 255);
-  int blueBrightness = map(blueValue, 0, 1023, 0, 255);
+  // Map the potentiometer values to the LED brightness
+  int redBrightness = map(redValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
+  int greenBrightness = map(greenValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
+  int blueBrightness = map(blueValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
 
   // Update the LED colors
   analogWrite(redPin, redBrightness);
