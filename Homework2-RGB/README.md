@@ -49,8 +49,10 @@ void loop() {
 }
 ```
 
-# Video
+## Video
 [![Watch the video](assets/thumbnail.png)](https://youtu.be/34BXTwMJW_8)
+<!-- make the video open in a new tab -->
+<a href="https://youtu.be/34BXTwMJW_8" target="_blank"><img src="assets/thumbnail.png"></a>
 
 ## Images
 ![off](assets/4.jpg)
