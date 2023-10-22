@@ -25,11 +25,15 @@ const int redPotPin = A0;    // Potentiometer for Red color
 const int greenPotPin = A1;  // Potentiometer for Green color
 const int bluePotPin = A2;   // Potentiometer for Blue color
 
-const int minLedBrightness = 0;    // Minimum brightness of the LED
-const int maxLedBrightness = 255;  // Maximum brightness of the LED
+const int minPotValue = 0;  // Minimum potentiometer value
+const int maxPotValue = 1023;  // Maximum potentiometer value
 
-const int minPotValue = 0;    // Minimum value of the potentiometer
-const int maxPotValue = 1023; // Maximum value of the potentiometer
+const int minLedBrightness = 0;  // Minimum LED brightness
+const int maxLedBrightness = 255;  // Maximum LED brightness
+
+int lastRedBrightness = 0;  // Last red LED brightness
+int lastGreenBrightness = 0;  // Last green LED brightness
+int lastBlueBrightness = 0;  // Last blue LED brightness
 
 void setup() {
   pinMode(redPin, OUTPUT);
@@ -43,10 +47,21 @@ void loop() {
   int greenValue = analogRead(greenPotPin);
   int blueValue = analogRead(bluePotPin);
 
+
   // Map the potentiometer values to the LED brightness
   int redBrightness = map(redValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
   int greenBrightness = map(greenValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
   int blueBrightness = map(blueValue, minPotValue, maxPotValue, minLedBrightness, maxLedBrightness);
+
+  // use filters to stop flickering
+  redBrightness = (redBrightness + lastRedBrightness) / 2;
+  greenBrightness = (greenBrightness + lastGreenBrightness) / 2;
+  blueBrightness = (blueBrightness + lastBlueBrightness) / 2;
+  
+  // save the last values
+  lastRedBrightness = redBrightness;
+  lastGreenBrightness = greenBrightness;
+  lastBlueBrightness = blueBrightness;
 
   // Update the LED colors
   analogWrite(redPin, redBrightness);

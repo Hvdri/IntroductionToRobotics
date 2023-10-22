@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:unomini",
+    "port": "COM3",
+    "sketch": "Homework1-RGB\\Homework1.ino"
+}
