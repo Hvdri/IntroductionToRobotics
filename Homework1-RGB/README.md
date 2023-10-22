@@ -1,4 +1,4 @@
-# Homework #2
+# Homework #1
 
 ## Task - RGB Led controlled by 3 potentiometers, each one for each color.
 Use a separate potentiometer for controlling each color of the RGB LED: Red, Green and Blue.This control must leverage digital electronics.Specifically, you need to  read the potentiometer’s value with Arduino and then write a mapped value to the LED pins.
