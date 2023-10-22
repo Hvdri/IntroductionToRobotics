@@ -9,7 +9,7 @@ Each homework will include their own requirements, implementation details, code 
   Don't forget to wear protection! 🥽
 </div>
 
-## [Homework 1.)](IntroductionToRobotics\Homework2-RGB)
+## [Homework 1.)](IntroductionToRobotics/Homework2-RGB)
 TBA
 
 (...)
