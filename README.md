@@ -10,4 +10,7 @@ Each homework will include their own requirements, implementation details, code 
 </div>
 
 ## [Homework 1.)](Homework1-RGB)
-Task: Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write a mapped value to the LED pins.
+- Task: Use a separate potentiometer for controlling each color of the RGB LED: Red, Green, and Blue.This control must leveraged igital electronics. Specifically, you need to read the potentiometer’s value with Arduino and then write a mapped value to the LED pins.
+
+## [Homework 2.)](Homework2-Elevator)
+- Task: Design a control system that simulates a 3-floor elevator using the Arduino platform. Each floor has a coresponding button and LED. The elevator has a buzzer and an LED to indicate its operational state.
