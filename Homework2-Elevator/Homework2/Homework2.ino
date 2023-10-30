@@ -13,7 +13,6 @@ bool elevatorMoving = false;
 int currentFloor = 1;
 int targetFloor = 1;
 unsigned long startTime = 0;
-
 const unsigned long travelTime = 2500;   // Time it takes to travel between floors in milliseconds
 const unsigned long debounceDelay = 50;  // Debounce time in milliseconds
 unsigned long closeDoor = 0;             // Closing timer when pressing a button
