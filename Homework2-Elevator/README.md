@@ -1,12 +1,12 @@
 # Homework #2
 
-## Task - Design  a  control  system  that  simulates  a  3-floor  elevator  using  the  Arduino platform. 
+## Task - Design a control system that simulates a 3-floor elevator using the Arduino platform. 
 
-This  assignment  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gain experience in using button state change, implementing debouncing techniques and coordinating multiple components to represent real-world scenarios.
+This assignment involves simulating a 3-floor elevator control system usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gain experience in using button state change, implementing debouncing techniques and coordinating multiple components to represent real-world scenarios.
 
 ## Requirements
 - Arduino Uno
-- 4 LEDs (3  for  the  floors  and  1  for  the  elevator’s  operationalstate)
+- 4 LEDs (3  for  the  floors  and  1  for  the  elevator’s  operational state)
 - 3 Buttons (1 for each floor)
 - 4 resistors (1 for each LED)
 - 1 buzzer 
@@ -149,7 +149,7 @@ void goToFloor(int floor) {
 ## Code Difficulties
 
 - One part was to make the elevator go through each floor in order, and not skip any floors. I solved this by using a variable to store the target floor, and then checking if the elevator is moving or not. If it is not moving, then it will check if the current floor is the same as the target floor, and if not, it will move to the target floor.
-- The biggest issue i had was my lack of logic to work within a while true (void loop()), I tried to structure the code within functions, but encountered issues. Lesson learned, i need to adapt.
+- The biggest issue i had was my lack of logic to work within a while true (void loop()), I tried to structure the code within functions, but encountered issues. Lesson learned, I need to adapt.
 
 ## Video
 <a href="https://youtu.be/pl10T8YX4Jw" target="_blank"><img src="https://img.youtube.com/vi/pl10T8YX4Jw/hqdefault.jpg"></a>
