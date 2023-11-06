@@ -14,3 +14,6 @@ Each homework will include their own requirements, implementation details, code 
 
 ## [Homework 2.)](Homework2-Elevator)
 - Task: Design a control system that simulates a 3-floor elevator using the Arduino platform. Each floor has a coresponding button and LED. The elevator has a buzzer and an LED to indicate its operational state.
+
+## [Homework 3.)](Homework3-7segment)
+- Task: Use the joystick to control the position of the segment and ”draw” on the display. The movement between segments should be natural, meaning they should jump from the current position only to neighbors, but without passing through ”walls”. Upon pressing the joystick button the current LED lights up, upon holding the joystick button for more than 2 seconds everything resets. Starting position is the decimal point.
