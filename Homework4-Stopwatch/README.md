@@ -4,6 +4,9 @@
 
 In this assignment, using the 4 digit 7 segment display and 3 buttons, you should implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality (similar to most basic stopwatch functionson most phones).
 
+## Video
+<a href="https://youtu.be/vjKBlgXtpJw" target="_blank"><img src="https://img.youtube.com/vi/vjKBlgXtpJw/hqdefault.jpg"></a>
+
 1. Display shows ”000.0”.  When pressing theStartbutton, the timer should start.
 
 2. During timer counter, each time you press the lap button, you should save that timer’s value in memory (not persistent, it is OK to be deleted upon reset), up to 4 laps (or more if you want); pressing the 5th time should override the 1st saved one. If you press the resetbutton while timer works, nothing happens. If you press the pausebutton, the timer stops.
@@ -229,9 +232,6 @@ void writeNumber(int number) {
 ## Code Difficulties
 
 - I did not have any difficulties with this assignment.
-
-## Video
-<a href="https://youtu.be/vjKBlgXtpJw" target="_blank"><img src="https://img.youtube.com/vi/vjKBlgXtpJw/hqdefault.jpg"></a>
 
 ## Images
 ![ye](assets/1.jpg)
