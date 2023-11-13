@@ -17,3 +17,6 @@ Each homework will include their own requirements, implementation details, code 
 
 ## [Homework 3.)](Homework3-7segment)
 - Task: Use the joystick to control the position of the segment and ”draw” on the display. The movement between segments should be natural, meaning they should jump from the current position only to neighbors, but without passing through ”walls”. Upon pressing the joystick button the current LED lights up, upon holding the joystick button for more than 2 seconds everything resets. Starting position is the decimal point.
+
+## [Homework 4.)](Homework4-Stopwatch)
+- Task: Use a 4 Digit 7 Segment Display and a Shift Register to implement a stopwatch timer that counts in 10ths of a second and has a start/stop, reset and save lap functionality (similar to most basic stopwatch functions on most phones).
