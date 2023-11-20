@@ -20,3 +20,6 @@ Each homework will include their own requirements, implementation details, code 
 
 ## [Homework 4.)](Homework4-Stopwatch)
 - Task: Use a 4 Digit 7 Segment Display and a Shift Register to implement a stopwatch timer that counts in 10ths of a second and has a start/stop, reset and save lap functionality (similar to most basic stopwatch functions on most phones).
+
+## [Homework 5.)](Homework5-InteractiveMenu)
+- Task: Develop a ”Smart Environment Monitor and Logger” using Arduino. This system will utilize various sensors to gather environmental data, log this data into EEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu.
