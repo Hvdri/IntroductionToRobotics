@@ -1,4 +1,4 @@
-# Homework #3
+# Homework #6
 
 ## Task - Mini Matrix Game - Develop a small game on the 8x8 matrix.
 
