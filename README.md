@@ -23,3 +23,6 @@ Each homework will include their own requirements, implementation details, code 
 
 ## [Homework 5.)](Homework5-InteractiveMenu)
 - Task: Develop a ”Smart Environment Monitor and Logger” using Arduino. This system will utilize various sensors to gather environmental data, log this data into EEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu.
+
+## [Homework 6.)](Homework6-MiniMatrixGame)
+- Task: Develop a small game on the 8x8 matrix.

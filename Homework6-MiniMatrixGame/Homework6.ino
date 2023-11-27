@@ -101,7 +101,7 @@ void updateSnake() {
     snakeY[i] = snakeY[i - 1];
   }
 
-  // Move the snake head based on the direction
+  // Move the snake head
   switch (snakeDirection) {
     case RIGHT:
       snakeY[0]--;
