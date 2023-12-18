@@ -1,4 +1,4 @@
-# Homework #3
+# Homework #6
 
 ## Task - Mini Matrix Game - Develop a small game on the 8x8 matrix.
 
@@ -57,10 +57,12 @@
               break;
             }
         ```
-    - And by removing the tail:
+    - And by permutating all elements by 1 and removing the tail:
         ```c
-        snakeX[i] = snakeX[i - 1]; 
-        snakeY[i] = snakeY[i - 1];
+        for (int i = snakeSize - 1; i > 0; i--) {
+            snakeX[i] = snakeX[i - 1];
+            snakeY[i] = snakeY[i - 1];
+        }
         ```
 
     - Wrapping the snake through the edges of the matrix:
