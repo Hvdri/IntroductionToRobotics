@@ -26,3 +26,6 @@ Each homework will include their own requirements, implementation details, code 
 
 ## [Homework 6.)](Homework6-MiniMatrixGame)
 - Task: Develop a small game on the 8x8 matrix.
+
+## [Project 1.)](SnakeGameProject)
+- Task: Develop a game on the 8x8 matrix with an interactive menu.
